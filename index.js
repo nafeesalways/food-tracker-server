@@ -106,7 +106,7 @@ async function run() {
       const result = await itemsCollection.insertOne(newFood);
       res.send(result);
     });      
-    
+
 
     // GET foods by userEmail
     app.get("/foods", async (req, res) => {
@@ -168,7 +168,7 @@ async function run() {
 
       const foods = await itemsCollection.find(filter).toArray();
       res.send(foods);
-    });
+    });   
 
     // PUT (update)
     app.put("/foods/:id", async (req, res) => {
