@@ -123,7 +123,7 @@ async function run() {
       };
       const result = await notesCollection.insertOne(note);
       res.send(result);
-    });
+    });   
     app.get("/notes/:foodId", async (req, res) => {
       const foodId = req.params.foodId;
       const notes = await notesCollection
