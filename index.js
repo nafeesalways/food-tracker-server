@@ -87,7 +87,7 @@ async function run() {
        }
       const items = await itemsCollection.find({ userEmail: email }).toArray();      
       res.send(items);
-    });
+    });   
 
     app.get("/foods",verifyFirebaseToken, async (req, res) => {
       const { userEmail } = req.query;
