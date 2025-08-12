@@ -23,6 +23,10 @@ This is the backend server for the **Food Expiry Tracker** application. It provi
 
 ---
 
+## 📷 Screenshot
+
+![Food Tracker Server Screenshot](https://images.unsplash.com/photo-1564653464933-49d666e03bb8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzV8fGZvb2QlMjB0cmFja2VyJTIwbW9iaWxlfGVufDB8fDB8fHww)
+
 
 ---
 
@@ -32,6 +36,4 @@ This is the backend server for the **Food Expiry Tracker** application. It provi
 git clone https://github.com/yourusername/food-tracker-server.git
 cd food-tracker-server
 npm install
-nodemon index.js 
-
-
+nodemon index.js
